@@ -1,0 +1,13 @@
+import shutil
+
+# Chemin vers le fichier à envoyer
+source = "C:/Users/Daryl/ScriptCloud.txt"
+
+# Chemin vers le dossier OneDrive
+destination = "C:/Users/Daryl/OneDrive/Documents/"
+
+# Copier le fichier vers OneDrive
+shutil.copy(source, destination)
+
+print("Fichier copié avec succès vers OneDrive !")
+
